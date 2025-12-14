@@ -1,11 +1,46 @@
-<div align="center">
+# ProCam - Virtual Camera Manager
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Bu loyiha React, TypeScript va Vite yordamida yaratilgan bo'lib, veb-brauzerda virtual kamera funksiyasini simulyatsiya qiladi.
 
-  <h1>Built with AI Studio</h2>
+## 📋 Talablar
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Loyihani ishga tushirish uchun kompyuteringizda quyidagilar o'rnatilgan bo'lishi kerak:
+- **Node.js** (v16 yoki undan yuqori versiya)
+- **npm** (Node.js bilan birga o'rnatiladi)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🚀 O'rnatish va Ishga Tushirish
 
-</div>
+Loyihani VS Code-da ochganingizdan so'ng, terminalda quyidagi buyruqlarni ketma-ket bajaring:
+
+### 1. Kutubxonalarni yuklash
+Barcha kerakli paketlarni o'rnatish uchun:
+```bash
+npm install
+```
+
+### 2. Dasturni ishga tushirish (Development mode)
+Loyihani brauzerda ko'rish uchun:
+```bash
+npm run dev
+```
+Bu buyruqdan so'ng terminalda havola paydo bo'ladi (masalan: `http://localhost:5173`), uni brauzerda oching.
+
+### 3. Loyihani qurish (Build)
+Production uchun tayyorlash:
+```bash
+npm run build
+```
+
+## 📱 Xususiyatlari
+- **Virtual Kamera:** Galereyadan rasm yuklash va uni kamera o'rnida ishlatish.
+- **Rasm Tahrirlash:** Rasmni kattalashtirish (zoom), burish (rotate) va surish (drag).
+- **Responsive:** Mobil va desktop qurilmalarga moslashgan dizayn.
+- **Xavfsiz:** Root talab qilinmaydi, barcha jarayon brauzer ichida bajariladi.
+
+## 🛠 Texnologiyalar
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React (Icons)
+- Use Gesture (Touch controls)
+- Vite (Build tool)

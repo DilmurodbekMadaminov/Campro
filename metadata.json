@@ -1,0 +1,7 @@
+{
+  "name": "procam8",
+  "description": "A camera substitution tool allowing users to upload a gallery image to act as a camera feed.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
